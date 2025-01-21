@@ -1,0 +1,45 @@
+/* Apply gradient background */
+body {
+  background: linear-gradient(45deg, #D6E6F2, #C8ABE6, #FFFFFF);
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Styling the content area to ensure it's white */
+.content {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Filters and form background */
+.filters {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Navbar styling - white background and black text */
+.navbar {
+  background-color: #ffffff !important;
+}
+
+.navbar .navbar-brand {
+  color: #000000 !important; /* Black text */
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: #000000 !important; /* Black text */
+  font-size: 1.2rem;
+}
+
+.navbar h6 {
+  margin-top: 0px;
+  margin-right: 20px;
+}

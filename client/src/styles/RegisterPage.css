@@ -1,0 +1,58 @@
+.register-page {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.register-box {
+  background-color: #ffff; /* Matching the box color as login */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 30px;
+  width: 400px;
+  max-width: 90%;
+  border-radius: 10px;
+}
+
+.register-form {
+  background-color: transparent;
+  padding: 0;
+}
+
+.register-form h2 {
+  text-align: center;
+  font-weight: bold;
+  color: #344265;
+  margin: 20px 0;
+}
+
+.register-form a {
+  color: #344265 !important;
+}
+
+.register-form a:hover {
+  color: black !important;
+}
+
+.register-form button {
+  background-color: #344265;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-form button:hover {
+  background-color: black;
+  color: white;
+}
+
+.register-form input:focus {
+  border: 1px solid #344265 !important;
+  color: #344265;
+}
+
